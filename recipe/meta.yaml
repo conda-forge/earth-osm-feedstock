@@ -1,5 +1,5 @@
 {% set name = "earth-osm" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/earth_osm-{{ version }}.tar.gz
-  sha256: b0fbd294fa4ad02df07510b0e1494fd665ffd6aa6adc7712e9dcf08844881b75
+  sha256: b4d4a58fe5349b51b4c3826993a9ba5b9aaa9df819bcada7d9c08398e8bbef4b
 
 build:
   noarch: python
