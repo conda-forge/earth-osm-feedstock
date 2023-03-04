@@ -1,11 +1,11 @@
-About earth-osm
-===============
+About earth-osm-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/earth-osm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypsa-meets-earth.github.io/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/earth-osm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python tool to extract large-amounts of OpenStreetMap data
 
