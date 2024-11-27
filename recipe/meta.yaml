@@ -1,5 +1,6 @@
 {% set name = "earth-osm" %}
 {% set version = "2.2" %}
+{% set python_min = "3.6" %}
 
 package:
   name: {{ name|lower }}
