@@ -1,5 +1,6 @@
 {% set name = "earth-osm" %}
 {% set version = "2.3.post1" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -18,11 +19,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >={{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - geopandas
     - pandas
     - tqdm
@@ -35,6 +36,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
