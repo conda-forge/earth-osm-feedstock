@@ -1,5 +1,5 @@
 {% set name = "earth-osm" %}
-{% set version = "3.0.2" %}
+{% set version = "3.1.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/earth_osm-{{ version }}.tar.gz
-  sha256: b50f265615cb1f29b7a5f4165968426852f2060c500ef7ac710876699df4a72e
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/earth_osm-{{ version }}.tar.gz
+  sha256: 599cc972448a6aa494470c25b41dc60c107ea2383e03ee7991c358b4cf2c8c35
 
 build:
   noarch: python
